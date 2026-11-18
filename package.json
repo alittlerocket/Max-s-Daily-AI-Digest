@@ -1,0 +1,20 @@
+{
+  "name": "daily-ai-digest",
+  "version": "0.1.0",
+  "description": "Obsidian plugin that sends the day's notes to an LLM for a summary and answers.",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "build": "tsc --noEmit && node esbuild.config.mjs",
+    "dev": "node esbuild.config.mjs watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "esbuild": "^0.25.0",
+    "obsidian": "latest",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}

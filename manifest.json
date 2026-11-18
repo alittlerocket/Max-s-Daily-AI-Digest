@@ -1,0 +1,9 @@
+{
+  "id": "daily-ai-digest",
+  "name": "Max's Daily AI Digest",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Jot notes through the day, then get an AI summary and answers to your questions.",
+  "author": "Max",
+  "isDesktopOnly": false
+}
